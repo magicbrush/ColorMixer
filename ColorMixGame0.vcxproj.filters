@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\ArcBarNode.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\BalloonNode.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\Informer.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lapi.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lauxlib.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lbaselib.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lcode.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ldblib.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ldebug.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ldo.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ldump.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lfunc.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lgc.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\linit.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\liolib.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\llex.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lmathlib.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lmem.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\loadlib.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lobject.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lopcodes.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\loslib.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lparser.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lstate.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lstring.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lstrlib.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ltable.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ltablib.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ltm.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lundump.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lvm.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lzio.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\print.c">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\LyuUtils.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\ofxAssets.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\ofxLua.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\ofxLuaBindings.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\ofxLuaFileWriter.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\ofxNodeController.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\ofxNodeCtrlLua.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\ResizingCircleNode.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\TextNode.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxPopInfo\src\TimerNode.cpp">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColorDrop.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColorDropAttractor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColorDropDragger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColorDropMerger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ColorHole.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CurveMovingParticle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundEngine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui">
+      <UniqueIdentifier>{4F2A59AF-5F4E-704B-D067-EC13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui\src">
+      <UniqueIdentifier>{645E9533-4DCD-6179-1CDF-CB65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPopInfo">
+      <UniqueIdentifier>{CE897B82-6756-C0F5-437A-ABFD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPopInfo\src">
+      <UniqueIdentifier>{0E393650-395F-A34B-4A68-5C43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxPopInfo\src\LuaSrc">
+      <UniqueIdentifier>{F12BADC9-5486-5E93-BF61-28DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\ArcBarNode.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\BalloonNode.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\Informer.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lapi.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lauxlib.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lcode.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ldebug.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ldo.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lfunc.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lgc.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\llex.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\llimits.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lmem.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lobject.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lopcodes.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lparser.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lstate.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lstring.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ltable.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\ltm.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lua.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lua.hpp">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\luaconf.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lualib.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lundump.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lvm.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LuaSrc\lzio.h">
+      <Filter>addons\ofxPopInfo\src\LuaSrc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\LyuUtils.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\ofxAssets.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\ofxLua.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\ofxLuaBindings.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\ofxLuaFileWriter.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\ofxNodeController.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\ofxNodeCtrlLua.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\ofxPopInfo.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\ResizingCircleNode.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\SingletonTemplate.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\TextNode.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxPopInfo\src\TimerNode.h">
+      <Filter>addons\ofxPopInfo\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ColorDrop.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ColorDropAttractor.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ColorDropDragger.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ColorDropMerger.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ColorHole.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CurveMovingParticle.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundEngine.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
